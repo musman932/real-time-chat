@@ -7,10 +7,10 @@ export default function LoginForm() {
     }
 
     return (
-        <Form action={loginUser} className='flex flex-col gap-y-4'>
+        <Form action={loginUser} className='flex flex-col gap-y-5'>
             <input name="Email:" className='bg-gray-100 outline-3 outline-red-500'/>
             <input name="Password:" className='bg-gray-100 outline-3 outline-red-500'/>
-            <button type="submit">Login</button>
+            <button type="submit" className="text-white font-bold py-2 mx-7 rounded-full bg-sky-500 cursor-pointer hover:bg-sky-700">Login</button>
         </Form>
     );
 }
